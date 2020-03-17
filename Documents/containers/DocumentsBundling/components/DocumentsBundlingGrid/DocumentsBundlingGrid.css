@@ -1,0 +1,36 @@
+.documents-bundling-grid .document-row-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.documents-bundling-grid .document-row-number-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 0.1rem solid #d3d3d3;
+  text-align: center;
+}
+
+.documents-bundling-grid .document-row-number-input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.documents-bundling-grid .pagination-footer {
+  margin: 0;
+}
+
+.documents-bundling-grid .delete-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  color: #787878;
+  font-size: 1.6rem;
+}
+
+.documents-bundling-grid .ag-header-cell::after {
+  border-right: none;
+}

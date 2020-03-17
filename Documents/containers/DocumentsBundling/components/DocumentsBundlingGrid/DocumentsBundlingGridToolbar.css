@@ -1,0 +1,17 @@
+
+.documents-bundling-grid .grid-toolbar {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.documents-bundling-grid-toolbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.documents-bundling-grid-toolbar .exit-bundling-button {
+  padding: 0;
+  color: #0177bd;
+  text-transform: uppercase;
+}

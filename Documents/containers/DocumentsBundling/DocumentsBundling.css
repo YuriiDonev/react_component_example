@@ -1,0 +1,45 @@
+.documents-bundling {
+  position: relative;
+}
+
+.documents-bundling .header {
+  margin: 2rem 3rem 0 2rem;
+}
+
+.documents-bundling .title {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.documents-bundling .footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 8rem 3rem 2rem 2rem;
+}
+
+.documents-bundling .cancel-button,
+.documents-bundling .confirm-button,
+.documents-bundling .save-button {
+  text-transform: uppercase;
+}
+
+.documents-bundling .print-save-buttons {
+  display: flex;
+}
+
+.documents-bundling .save-button {
+  margin-left: 1rem;
+}
+
+.documents-bundling .footer .documents-bundling-button:hover {
+  opacity: 0.8;
+}
+
+.documents-bundling .footer .documents-bundling-button:disabled {
+  border: 0.1rem solid #b8b8b8;
+  color: #fff;
+  background-color: #b8b8b8;
+  cursor: not-allowed;
+  opacity: 1;
+}

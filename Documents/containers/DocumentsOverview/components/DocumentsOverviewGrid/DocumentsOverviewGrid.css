@@ -1,0 +1,35 @@
+.documents-overview-grid .grid-container {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.documents-overview-grid .grid-toolbar {
+  display: block;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.documents-overview-grid .table-footer {
+  margin: 0;
+}
+
+.documents-overview-grid .ag-header-cell::after {
+  border-right: none;
+}
+
+.documents-overview-grid .edit-icon,
+.documents-overview-grid .delete-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  color: #787878;
+}
+
+.documents-overview-grid .edit-icon {
+  font-size: 1.6rem;
+}
+
+.documents-overview-grid .delete-icon {
+  font-size: 1.6rem;
+}

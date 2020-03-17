@@ -1,0 +1,65 @@
+.documents-overview .header {
+  margin: 0 3rem 0 2rem;
+}
+
+.documents-overview .topbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.documents-overview .forbidden-documents-formats {
+  margin-bottom: 2rem;
+}
+
+.documents-overview .title {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.documents-overview .documents-search {
+  position: relative;
+  flex-grow: 1;
+}
+
+.documents-overview .add-document-button {
+  text-transform: uppercase;
+}
+
+.documents-overview .add-document-button:hover {
+  opacity: 0.8;
+}
+
+.documents-overview .add-document-icon {
+  margin-right: 0.7rem;
+  font-size: 1.6rem;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+.documents-overview .search-icon {
+  position: absolute;
+  top: 0.7rem;
+  left: 1rem;
+  color: #787878;
+  font-size: 1.6rem;
+}
+
+.documents-overview .search-input {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 3.8rem;
+  padding: 0 0 0 3.3rem;
+  border: solid 0.1rem #d3d3d3;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  font-size: 1.2rem;
+}
+
+.documents-overview .search-input:focus {
+  border-color: #0377be;
+  outline: 0;
+  box-shadow: inset 0 0.1rem 0.1rem rgba(0, 0, 0, 0.075), 0 0 0.8rem rgba(3, 119, 190, 0.6);
+  transition: 0.3s;
+}

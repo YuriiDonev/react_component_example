@@ -1,0 +1,33 @@
+.documents-overview-grid-toolbar {
+  display: flex;
+}
+
+.documents-overview-grid-toolbar .bundle-documents-button {
+  padding: 0 0.5rem;
+  border: none;
+  color: #0177bd;
+  font-size: 1.2rem;
+}
+
+.documents-overview-grid-toolbar .bundle-documents-button.disabled {
+  color: #787878;
+  cursor: auto;
+}
+
+.documents-overview-grid-toolbar .bundle-documents-button-text {
+  margin-left: 0.5rem;
+}
+
+.documents-overview-grid-toolbar .delete-button {
+  font-size: 1.8rem;
+}
+
+.documents-overview-grid-toolbar .delete-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.documents-overview-grid-toolbar .ims-icon-print:disabled,
+.ims-icon-export:disabled {
+  cursor: not-allowed;
+}
